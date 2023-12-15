@@ -1,19 +1,25 @@
-
 body {
   font-family: Roboto, sans-serif;
+  text-align:center;
+  background-color:aliceblue;
 }
 
 .merch {
   color: blue;
 }
 
+p {
+  margin-top: 1px; /* Отступ сверху */
+  margin-bottom: 1px; /* Отступ снизу */
+ }
 .container {
   padding: 0 40px;
   margin-left: 100px;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 35px;
+  text-shadow: 0px 0px 25px #517ccc;
 }
 
 h2 {
@@ -29,28 +35,33 @@ h2 {
   /* Параметры рамки */
   box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
   object-fit: cover;
+  margin-bottom: 10px;
 }
 
   /* Эффект наведения на картинку */
 .photo:hover {
-  border: 3px solid #FFD700;
+  border: 3px solid #517ccc;
 }
 
   /* Свойства ссылок */
 a {
   display: block;
   text-decoration:none;
-  margin-bottom: 35px;
+  margin-bottom: none;
   position: relative;
+  color:black;
 }
 
   /* Что делать при наведении на ссылку */
+a:visited {
+    color:black;
+  }
 a:hover {
-  color:darkred;
+  color: #517ccc;
 }
 
   /* Этим свойством добавляем подчеркивание через создание псевдокласса */
-a::after {
+/* a::after {
   content: '';
   position: absolute;
   left: 0;
@@ -58,5 +69,16 @@ a::after {
   transform: translateY(1.5em);
   border-bottom: 1px solid #dadada;
   width: 300px;
-}
+} */
 
+ul.contacts {
+  /* Обнуляем значение отступов и полей */
+  margin: 0; padding: 0;
+ }
+ ul.contacts li {
+  border-radius: 5px;
+  display: inline-block; /* Строчно-блочный элемент */
+  /* border: 1px solid black; Рамка вокруг текста */
+  padding: 3px; /* Поля вокруг текста */
+  box-shadow: 0 4px 5px 0px rgba(0, 0, 0, 0.52);
+ }
