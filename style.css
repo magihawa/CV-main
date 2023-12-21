@@ -3,6 +3,18 @@ body {
   background-color:aliceblue;
 }
 
+@media (min-width: 1024px){
+  body{
+  background-color: aliceblue;
+  }
+}
+@media (max-width: 1023px){
+  body{
+  background-color: rgb(106, 93, 110);
+  color: white;
+  }
+}
+
 .merch {
   color: blue;
 }
@@ -16,6 +28,8 @@ p {
   padding: 0 40px;
   margin-left: 100px;
   text-align:center;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
