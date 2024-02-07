@@ -8,40 +8,40 @@
 // })
 let Mask = false;
 
-function MaskOn(){
-	if(Mask){
-		document.getElementById("name").innerHTML = "Maksim Bauer";
-		document.getElementById("ava").src = "ava_me.jpg";
-	} else {
-		document.getElementById("name").innerHTML = "Booga Booga";
-		document.getElementById("ava").src = "ava2_bart.jpg";
-		MaskOn2();
-	} 
-	Mask = !Mask;
+function MaskOn() {
+  if (Mask) {
+    document.getElementById("name").innerHTML = "Maksim Bauer";
+    document.getElementById("ava").src = "ava_me.jpg";
+  } else {
+    document.getElementById("name").innerHTML = "Booga Booga";
+    document.getElementById("ava").src = "ava2_bart.jpg";
+    MaskOn2();
+  }
+  Mask = !Mask;
 }
 // ???Пока что не знаю как добавить 3 действие на одну кнопку. Решить что делать
 let Mask2 = false;
-	
-function MaskOn2(){
-	if(Mask2){
-		document.getElementById("name").innerHTML = "Booga Booga";
-		document.getElementById("ava").src = "ava2_bart.jpg";
-	} else {
-		document.getElementById("name").innerHTML = "Ugol'ok";
-		document.getElementById("ava").src = "ava3_son.jpg";
-	}
-	Mask2 = !Mask2;
-};
+
+function MaskOn2() {
+  if (Mask2) {
+    document.getElementById("name").innerHTML = "Booga Booga";
+    document.getElementById("ava").src = "ava2_bart.jpg";
+  } else {
+    document.getElementById("name").innerHTML = "Ugol'ok";
+    document.getElementById("ava").src = "ava3_son.jpg";
+  }
+  Mask2 = !Mask2;
+}
 
 let isRotated = false;
 
-function rotation(){
-	if (isRotated){
-	document.body.style.transform = "rotate(0deg)";
-	document.body.style.direction = "ltr";
-	} else {
-	document.body.style.transform = "rotate(180deg)";
-	document.body.style.direction = "rtl";
-	}
-	isRotated = !isRotated;
+function rotation() {
+  if (isRotated) {
+    document.body.style.transform = "rotate(0deg)";
+    document.body.style.direction = "ltr";
+  } else {
+    document.body.style.transform = "rotate(180deg)";
+    document.body.style.direction = "rtl";
+  }
+  isRotated = !isRotated;
 }
