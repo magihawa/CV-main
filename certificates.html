@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -17,10 +17,23 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <style>
+        .card {
+            border-radius: 1em;
+            text-align: center;
+        }
+        .card:hover {
+            background-color: rgba(61, 104, 184, 0.1);
+        }
+        .card img {
+            border-radius: 1.3em;
+            padding: 0.5em;
+        }
+    </style>
   </head>
 
   <body class="bg-body-tertiary">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">CAT</a>
         <button
@@ -40,7 +53,7 @@
               <a class="nav-link" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="usefultools.html">Useful</a>
+              <a class="nav-link active" href="certificates.html">Certificates</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -65,6 +78,39 @@
         </div>
       </div>
     </nav>
+
+    <div class="container my-5">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+            <div class="col">
+                <div class="card">
+                    <a href="https://stepik.org/cert/2358055" target="_blank"><img class="card-img-top" src="https://stepik.org/certificate/99f91c1ac4495a87fee2e0fc52895793be3d29c1.png?resolution=low" alt="Stepik Certificate 2358055"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Stepik Certificate 2358055</h5>
+                        <p class="card-text">Тестирование ПО с нуля. Теория + Практика.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <a href="Lorem Ipsum" target="_blank"><img class="card-img-top" src="Lorem Ipsum" alt="Lorem Ipsum"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p class="card-text">Lorem Ipsum</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <a href="Lorem Ipsum" target="_blank"><img class="card-img-top" src="Lorem Ipsum" alt="Lorem Ipsum"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p class="card-text">Lorem Ipsum</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container text-center my-5">
       <div class="row row-cols-1 row-cols-md-2 rpw-cols-lg-2">
         <div class="col-lg-6 col-md-8 mx-auto">
@@ -92,4 +138,5 @@
     </ul>
     <br />
   </body>
-</html> -->
+</html>
+
