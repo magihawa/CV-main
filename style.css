@@ -13,13 +13,7 @@
 }
 
 h1 {
-  font-size: 35px;
   text-shadow: 0px 0px 25px #517ccc;
-}
-
-h2 {
-  font-size: 25px;
-  margin: 25px 0;
 }
 
 /* Свойства фотографии*/
@@ -45,4 +39,16 @@ ul.contacts {
 
 ul.contacts li {
   display: inline-block;
+}
+
+.card {
+  border-radius: 1em;
+  text-align: center;
+}
+.card:hover {
+  background-color: rgba(61, 104, 184, 0.1);
+}
+.card img {
+  border-radius: 1.3em;
+  padding: 0.5em;
 }
