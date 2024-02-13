@@ -35,10 +35,13 @@ ul.contacts {
   /* Обнуляем значение отступов и полей */
   margin: 10;
   padding: 10;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 ul.contacts li {
   display: inline-block;
+  background-color: rgb(248, 249, 250);
+  border-radius: 0.5em;
 }
 
 .card {
