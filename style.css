@@ -13,9 +13,8 @@
 }
 
 h1 {
-  text-shadow: 0px 0px 25px #517ccc;
+  text-shadow: 0px 5px 25px #517ccc;
 }
-
 /* Свойства фотографии*/
 .photo {
   width: 35%;
