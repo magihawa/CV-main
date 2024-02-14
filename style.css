@@ -31,9 +31,6 @@ h1 {
 }
 
 ul.contacts {
-  /* Обнуляем значение отступов и полей */
-  margin: 10;
-  padding: 10;
   background-color: rgba(0, 0, 0, 0);
 }
 
