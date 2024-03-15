@@ -4,8 +4,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="/imgs/favicon.png" type="image/png" />
-    <title>Maksim Bauer</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="imgs/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicons/favicon-16x16.png">
+    <link rel="manifest" href="imgs/favicons/site.webmanifest">
+    <title>М.БАУЭР</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -18,7 +21,7 @@
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark p-0">
       <div class="container-fluid">
         <a class="navbar-brand" href="/"
-          ><img src="imgs/favicon.png" alt="SKY" width="40"
+          ><img src="imgs/favicons/favicon.ico" alt="SKY" width="40"
         /></a>
         <button
           class="navbar-toggler"
@@ -34,7 +37,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/"
+              <a class="nav-link active" aria-current="page" href="index.html"
                 >Домашняя страница</a
               >
             </li>
@@ -49,14 +52,14 @@
       </div>
     </nav>
     <div class="container text-center">
-      <h1 id="name">Maksim Bauer</h1>
+      <h1 id="name">Максим Бауэр</h1>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2">
         <div class="col-lg-6 col-md-8 col-md-12 mx-auto">
           <img class="photo" id="ava" src="imgs/ava_me.jpg" alt="Handsome." />
         </div>
         <div class="container-fluid">
           <p>City: South Park</p>
-          <p>QA Engineer</p>
+          <p>Тестировщик</p>
           <p>Русский язык (Родной), Английский (C2)</p>
           <p>
             <b>SQL/MySQL, HTML/CSS, Git/GitHub/Bash, Postman, SoapUI, Python</b>
@@ -70,10 +73,8 @@
           <!-- <button class="btn btn-secondary" id="bulb">Лампочка</button> -->
         </div>
       </div>
-      <br />
-      <h2>Обо мне</h2>
-      <br />
-      <p class="lead text-muted">
+<h2 class="name">КТО Я?</h2>
+      <p class="lead abzac">
         Меня зовут Максим Бауэр, 25 лет, холост. Мой дом находится в
         северо-западной части Курска, в районе поместий. Я не работаю в офисе
         сети магазинов Kame Yu, а домой возвращаюсь, самое позднее, в 12 вечера.
@@ -87,6 +88,96 @@
         поражений, и не обзавожусь врагами, из-за которых не мог бы уснуть. Я
         знаю наверняка: в таком способе взаимодействия с обществом и кроется
         счастье. Хотя, если бы мне пришлось сражаться, я бы никому не проиграл.
+        <div class="accordion" id="accordion">
+          <div class="accordion-item  my-1">
+            
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                МОЯ ИСТОРИЯ ЛЮБВИ
+              </button>
+
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="maintext lead">
+                  <p class="abzac">
+                    <strong>Здравствуй, друг, меня зовут Максим, я начинающий тестировщик.</strong> С самого
+                    детства для меня игры были не самой главной забавой, что меня
+                    действительно привлекало и что мне действительно нравилось, так это
+                    обманывать скрипты, заботливо распиханные разработчиками, убегать за
+                    текстуры и смотреть как это отразится на моем персонаже.
+                  </p>
+                  <p class="abzac">
+                    Свой первый баг я нашел в 7 лет, играя в GTA: Vice City. Этот баг
+                    позволял мне зарабатывать много денег за трюки на мотоцикле. Суть в том,
+                    что главный персонаж не умел плавать, но почему-то мог заехать в океан,
+                    который находится рядом с Оушен-Бич, и прекрасно проводить там время, не
+                    теряя кислород, доезжая до обрыва, Томи Версетти какое-то время пролетал
+                    под текстурами и затем спаунился на пляже, получая деньги за исполненный
+                    трюк. Это было незабываемо и дарило много эмоций.
+                  </p>
+                  <p class="abzac">
+                    <!-- найти этот скрипт, сделать ссылку -->
+                    Ставь чуть постарше, мы с моим другом создавали простенький сайт на
+                    UCOZ, мечтая зарабатывать деньги на раздаче торрентов, надо ли говорить,
+                    что затея была не самая умная. В поисках денег, дорожка завела меня на
+                    WMZONA и SEOSPRINT, где я продавал коды по 5 рублей от пачек сигарет и
+                    крышек газировки, которые находил на улице, писал фейковые отзывы, и все
+                    в таком духе. Через какое-то время мне это надоело и я попытался
+                    автоматизировать рутинные задания, написал скрипт/аддон для браузера
+                    Firefox, начал использовать автокликеры, работа пошла быстрее, и все это
+                    приносило мне от 500 до 1000 рублей в неделю, неплохо для 11-летки, как
+                    по мне.
+                  </p>
+                  <p class="abzac">
+                    Где-то с 13 лет мне захотелось стать "хакером", вооружившись журналом
+                    "Хакер" я начал искать все, что меня интересовало. Код писать я не умел,
+                    но у меня хорошо получалось находить уже готовые решения - снифферы,
+                    парсеры, брутеры, вирусы. Я научился
+                    <span class="blur"
+                      >парсить имейлы, брутфорсить аккаунты в соц-сетях, брутить
+                      серверы</span
+                    >, закидывая туда плашки с просьбой прислать денежную помощь,
+                    <span class="blur"
+                      ><a
+                        class="link"
+                        href="https://www.youtube.com/watch?v=QWRfWF4MR9c"
+                        target="_blank"
+                        >а также вшивать вирусы в экзешники</a
+                      ></span
+                    >, которые бы присылали всевозможные данные, интересовавшие меня, на мой
+                    первый ftp-сервер. Я не совсем осознавал, что это не правильно, для меня
+                    это была просто игра, которая позволяла мне купить парочку новых тайтлов
+                    на свой стим аккаунт, а также на аккаунты своих друзей для совместной
+                    игры, ведь так веселее.
+                  </p>
+                  <p class="abzac">
+                    Также примерно в это время я осваивал Source SDK, ведь Counter-Strike:
+                    Source была моей любимой игрой, и для этой игры я и создал
+                    <a
+                      class="link"
+                      href="https://www.youtube.com/watch?v=cdaRZUijwtw"
+                      target="_blank"
+                    >
+                      несколько карт</a
+                    >
+                    с многотысячными скачиваниями и хорошими отзывами. Надо ли говорить, что
+                    я пытался найти лазейки на картах в этой игре, записывая видео Fraps'ом
+                    и редактируя в Sony Vegas Pro, крякнутых, само собой.
+                  </p>
+                  <p class="abzac">
+                    К сожалению многие видео не сохранились, потому что чем старше я
+                    становился, тем больше стыда я начинал испытывать за то, что я не так
+                    хорош, как хотелось бы, ведь я был малолеткой. Из-за этого я также
+                    удалил свой проект по South Park, который я начинал делать в Game Maker,
+                    сам рисовал текстуры и программировал взаимодействия между персонажами и
+                    окружением, игра была с видом сверху, и какого же было мое
+                    разочарование, когда уже именитая студия выпустила South Park The Stick
+                    of Truth, ведь у меня была такая же идея, которую я реализовывал за 7
+                    лет до выпуска их игры!
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </p>
       <br />
       <figure>
@@ -99,26 +190,26 @@
       </figure>
       <br />
       <br />
-      <ul class="container contacts text-center fixed-bottom">
+      <ul class="container contacts text-center">
         <li>
-          <a href="https://www.vk.com/zugzwang" target="_blank"
-            ><button class="btn btn-outline-primary">vkontakte</button></a
-          >
+          <a href="https://www.vk.com/zugzwang" target="_blank" alt="vkontakte"
+            ><img src="imgs/social/vk.png"
+          /></a>
         </li>
         <li>
-          <a href="http://t.me/magihawa" target="_blank"
-            ><button class="btn btn-outline-primary">telegram</button></a
-          >
+          <a href="http://t.me/magihawa" target="_blank" alt="telegram"
+            ><img src="imgs/social/telegram.png"
+          /></a>
         </li>
         <li>
-          <a href="mailto:magihawa@gmail.com"
-            ><button class="btn btn-outline-primary">e-mail</button></a
-          >
+          <a href="mailto:magihawa@gmail.com" alt="gmail"
+            ><img src="imgs/social/gmail.png"
+          /></a>
         </li>
         <li>
-          <a href="https://github.com/magihawa" target="_blank"
-            ><button class="btn btn-outline-primary">github</button></a
-          >
+          <a href="https://github.com/magihawa" target="_blank" alt="github"
+            ><img src="imgs/social/github.png"
+          /></a>
         </li>
       </ul>
     </div>

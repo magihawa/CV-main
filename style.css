@@ -10,11 +10,9 @@
 
 #name {
   margin-top: 75px;
+  text-transform: uppercase;
 }
 
-h1 {
-  text-shadow: 0px 5px 25px #517ccc;
-}
 /* Свойства фотографии*/
 .photo {
   width: 35%;
@@ -36,7 +34,6 @@ ul.contacts {
 
 ul.contacts li {
   display: inline-block;
-  background-color: rgb(248, 249, 250);
   border-radius: 0.5em;
 }
 
@@ -50,4 +47,21 @@ ul.contacts li {
 .card img {
   border-radius: 1.3em;
   padding: 0.5em;
+}
+
+.blur {
+  filter: blur(3px); /* Размытие */
+  transition: 0.5s; /* Время перехода */
+}
+.blur:hover {
+  filter: blur(0); /* Убираем размытие при наведении */
+}
+.abzac {
+  text-indent: 20px;
+  text-align: justify;
+}
+
+.link {
+  text-decoration-line: none;
+  font-weight: 400;
 }

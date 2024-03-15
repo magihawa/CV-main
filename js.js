@@ -10,10 +10,10 @@ let Mask = false;
 
 function MaskOn() {
   if (Mask) {
-    document.getElementById("name").innerHTML = "Maksim Bauer";
+    document.getElementById("name").innerHTML = "МАКСИМ БАУЭР";
     document.getElementById("ava").src = "imgs/ava_me.jpg";
   } else {
-    document.getElementById("name").innerHTML = "Booga Booga";
+    document.getElementById("name").innerHTML = "БУГА БУГА";
     document.getElementById("ava").src = "imgs/ava2_bart.jpg";
     MaskOn2();
   }
@@ -24,10 +24,10 @@ let Mask2 = false;
 
 function MaskOn2() {
   if (Mask2) {
-    document.getElementById("name").innerHTML = "Booga Booga";
+    document.getElementById("name").innerHTML = "БУГА БУГА";
     document.getElementById("ava").src = "imgs/ava2_bart.jpg";
   } else {
-    document.getElementById("name").innerHTML = "Ugol'ok";
+    document.getElementById("name").innerHTML = "УГОЛЕК";
     document.getElementById("ava").src = "imgs/ava3_son.jpg";
   }
   Mask2 = !Mask2;
