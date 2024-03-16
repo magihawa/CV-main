@@ -1,45 +1,52 @@
 .container {
   /* font-family: Roboto, sans-serif; */
-  background-color: #ffbe98;
+  background-color: #cf9d8d;
+  position: relative;
 }
 
 .body {
-  background-color: #964f4c;
+  background-color: #ffbe98;
 }
 
-.accordion-item {
-  border-radius: 0;
-}
 #name {
-  padding-top: 3em;
+  padding-top: 2.5em;
+  margin-bottom: 0.5em;
   text-transform: uppercase;
   color: #522a28;
 }
 
 .name {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   text-transform: uppercase;
   color: #522a28;
 }
+.name::selection {
+  color: #fff;
+  background-color: #000;
+}
 
 .description {
-  padding-top: 1rem;
+  padding-top: 3em;
 }
 
 /* Свойства фотографии*/
 .photo {
   width: 50%;
   border-top-left-radius: 3em;
-  border: 3px solid transparent;
+  /* border: 3px solid transparent; */
   object-fit: cover;
   margin-top: 1em;
   margin-bottom: 1em;
 }
 /* Эффект наведения на картинку */
 .photo:hover {
-  border: 3px solid rgba(61, 104, 184, 0.1);
+  /* border: 3px solid rgba(61, 104, 184, 0.1); */
   box-shadow: 20px 10px 30px 5px #964f4c;
+  opacity: 0.9;
+}
+.photo:active {
+  transform: scale(0.95);
 }
 
 ul.contacts li {
@@ -53,11 +60,19 @@ ul.contacts li {
   text-align: center;
 }
 .card:hover {
-  background-color: rgba(61, 104, 184, 0.1);
+  border-color: #522a28;
 }
 .card img {
-  border-radius: 1.3em;
   padding: 0.5em;
+  background-color: #f2e8da;
+}
+.card-body {
+  background-color: #f2e8da;
+  color: #522a28;
+}
+.card-title::selection {
+  color: #fff;
+  background-color: #000;
 }
 
 .blur {
@@ -73,18 +88,30 @@ ul.contacts li {
   padding-left: 2em;
   padding-right: 2em;
 }
-
+.nav-link {
+  color: #522a28;
+}
 .link {
   text-decoration-line: none;
   font-weight: 400;
+  color: #522a28;
 }
-
+.link:hover {
+  color: #fdeff1;
+}
 .accordion-body {
-  background-color: #ffbe98;
+  background-color: #f2e8da;
+}
+.bg-body-tertiary {
+  background-color: black;
 }
 
 p {
   color: #522a28;
+}
+p::selection {
+  color: #fff;
+  background-color: #000;
 }
 
 .button {

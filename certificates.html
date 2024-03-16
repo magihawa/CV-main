@@ -1,11 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en ru">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="imgs/favicon.png" type="image/png" />
-    <title>Maksim Bauer</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="imgs/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="imgs/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="imgs/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="imgs/favicons/site.webmanifest" />
+    <title>М. БАУЭР</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,11 +31,14 @@
     />
   </head>
 
-  <body class="bg-body-tertiary">
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark p-0">
+  <body class="body">
+    <nav
+      class="navbar navbar-expand-lg navbar-light p-0 fixed-top"
+      style="background-color: #fdeff1"
+    >
       <div class="container-fluid">
         <a class="navbar-brand" href="/"
-          ><img src="imgs/favicon.png" alt="SKY" width="40"
+          ><img src="imgs/favicons/favicon.ico" alt="SKY" width="30"
         /></a>
         <button
           class="navbar-toggler"
@@ -32,20 +52,19 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html"
+              <a class="nav-link" aria-current="page" href="/"
                 >Домашняя страница</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="certificates.html">Сертификаты</a>
+              <a class="nav-link active" href="certificates.html"
+                >Сертификаты</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="practical.html"
-                >Полезные материалы</a
-                >
-              </li>
+              <a class="nav-link" href="practical.html">Полезные материалы</a>
             </li>
           </ul>
         </div>
@@ -56,22 +75,6 @@
       <div class="row row-cols-1 row-cols-lg-3 g-3">
         <div class="col">
           <div class="card">
-            <a href="https://stepik.org/cert/2358055" target="_blank"
-              ><img
-                class="card-img-top"
-
-                src="/imgs/STCERT_RUSAU2358055.png"
-
-                alt="Stepik Certificate 2358055"
-            /></a>
-            <div class="card-body">
-              <h5 class="card-title">Тестирование ПО с нуля. Теория + Практика</h5>
-              <p class="card-text">Stepik Certificate 2358055</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
             <a href="https://www.efset.org/cert/idjt4X" target="_blank"
               ><img
                 class="card-img-top"
@@ -79,18 +82,41 @@
                 alt="EF SET Certificate English C2 Proficient"
             /></a>
             <div class="card-body">
-              <h5 class="card-title">English C2 Proficient</h5>
+              <h5 class="card-title" style="color: #522a28">
+                English C2 Proficient
+              </h5>
               <p class="card-text">EF SET</p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <a href="https://stepik.org/cert/2379953" target="_blank"
-              ><img class="card-img-top" src="/imgs/STCERT_SELENIUM2379953.png" alt="Stepik Certificate 2379953"
+            <a href="https://stepik.org/cert/2358055" target="_blank"
+              ><img
+                class="card-img-top"
+                src="/imgs/STCERT_RUSAU2358055.png"
+                alt="Stepik Certificate 2358055"
             /></a>
             <div class="card-body">
-              <h5 class="card-title">Автоматизация тестирования с помощью Selenium и Python</h5>
+              <h5 class="card-title" style="color: #522a28">
+                Тестирование ПО с нуля. Теория + Практика
+              </h5>
+              <p class="card-text">Stepik Certificate 2358055</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href="https://stepik.org/cert/2379953" target="_blank"
+              ><img
+                class="card-img-top"
+                src="/imgs/STCERT_SELENIUM2379953.png"
+                alt="Stepik Certificate 2379953"
+            /></a>
+            <div class="card-body">
+              <h5 class="card-title" style="color: #522a28">
+                Автоматизация тестирования с помощью Selenium и Python
+              </h5>
               <p class="card-text">Stepik Certificate 2379953</p>
             </div>
           </div>
@@ -98,29 +124,28 @@
       </div>
     </div>
 
-    <ul class="container contacts text-center fixed-bottom">
+    <ul class="contacts text-center">
       <li>
-        <a href="https://www.vk.com/zugzwang" target="_blank"
-          ><button class="btn btn-outline-primary">vkontakte</button></a
-        >
+        <a href="https://www.vk.com/zugzwang" target="_blank" alt="vkontakte"
+          ><img src="imgs/social/vk.png"
+        /></a>
       </li>
       <li>
-        <a href="http://t.me/magihawa" target="_blank"
-          ><button class="btn btn-outline-primary">telegram</button></a
-        >
+        <a href="http://t.me/magihawa" target="_blank" alt="telegram"
+          ><img src="imgs/social/telegram.png"
+        /></a>
       </li>
       <li>
-        <a href="mailto:magihawa@gmail.com"
-          ><button class="btn btn-outline-primary">e-mail</button></a
-        >
+        <a href="mailto:magihawa@gmail.com" alt="gmail"
+          ><img src="imgs/social/gmail.png"
+        /></a>
       </li>
       <li>
-        <a href="https://github.com/magihawa" target="_blank"
-          ><button class="btn btn-outline-primary">github</button></a
-        >
+        <a href="https://github.com/magihawa" target="_blank" alt="github"
+          ><img src="imgs/social/github.png"
+        /></a>
       </li>
     </ul>
-    <br />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
