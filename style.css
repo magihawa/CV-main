@@ -1,11 +1,13 @@
 .container {
   /* font-family: Roboto, sans-serif; */
   background-color: #cf9d8d;
-  position: relative;
+  min-height: 100vh;
+  /* position: relative; */
 }
 
 .body {
   background-color: #ffbe98;
+  min-height: 100vh;
 }
 
 #name {
@@ -28,6 +30,8 @@
 
 .description {
   padding-top: 3em;
+  justify-items: center;
+  margin: auto;
 }
 
 /* Свойства фотографии*/
@@ -49,15 +53,20 @@
   transform: scale(0.95);
 }
 
+ul.contacts {
+  justify-content: center;
+  margin-bottom: 0;
+}
+
 ul.contacts li {
   display: inline-block;
   border-radius: 0.5em;
-  padding-bottom: 1em;
 }
 
 .card {
   border-radius: 1em;
   text-align: center;
+  min-height: 353.617px;
 }
 .card:hover {
   border-color: #522a28;
@@ -74,7 +83,10 @@ ul.contacts li {
   color: #fff;
   background-color: #000;
 }
-
+.blockquote-footer::selection {
+  color: #fff;
+  background-color: #000;
+}
 .blur {
   filter: blur(3px); /* Размытие */
   transition: 0.5s; /* Время перехода */
@@ -126,7 +138,26 @@ p::selection {
   background-color: rgba(82, 42, 40, 0.3);
   color: #522a28;
 }
-.btns {
-  min-width: max-content;
-  justify-items: auto;
+
+.carousel-item {
+  height: 400px;
+}
+
+.d-block {
+  display: flex;
+  max-height: 354px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.d-block:hover {
+  box-shadow: 0px 14px 200px 10px #ffbe98;
+}
+
+.grid1 {
+  max-height: fit-content;
+  padding: 0;
 }
