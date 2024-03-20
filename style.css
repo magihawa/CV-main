@@ -66,7 +66,7 @@ ul.contacts li {
 .card {
   border-radius: 1em;
   text-align: center;
-  min-height: 353.617px;
+  min-height: 100%;
 }
 .card:hover {
   border-color: #522a28;
